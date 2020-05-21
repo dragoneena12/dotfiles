@@ -22,6 +22,8 @@ if dein#load_state('~/.cache/dein')
   call dein#add('preservim/nerdtree')
   call dein#add('airblade/vim-gitgutter')
   call dein#add('tpope/vim-fugitive')
+  call dein#add('vim-airline/vim-airline')
+  call dein#add('easymotion/vim-easymotion')
 
   call dein#end()
   call dein#save_state()
@@ -37,3 +39,4 @@ set autochdir
 
 """ key mappings
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
+map <Leader> <Plug>(easymotion-prefix)
