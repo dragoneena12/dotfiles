@@ -65,3 +65,4 @@ alias python="python3.7"
 alias pip="pip3.7"
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
