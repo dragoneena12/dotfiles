@@ -63,3 +63,5 @@ SPROMPT="correct: $RED%R$DEFAULT -> $GREEN%r$DEFAULT ? [Yes/No/Abort/Edit] => "
 
 alias python="python3.7"
 alias pip="pip3.7"
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
