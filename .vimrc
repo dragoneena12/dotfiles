@@ -36,6 +36,7 @@ syntax enable
 colorscheme night-owl
 set number
 set autochdir
+set backspace=indent,eol,start
 
 """ key mappings
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
