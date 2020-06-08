@@ -1,0 +1,17 @@
+{
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Night Owl",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "workbench.startupEditor": "welcomePage",
+    "go.useLanguageServer": true,
+    "window.zoomLevel": 1,
+    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google}",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "\"Source Han Code JP\"",
+    "terminal.integrated.fontFamily": "monospace",
+    "C_Cpp.default.cppStandard": "c++17",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "javascript.format.semicolons": "insert"
+}
