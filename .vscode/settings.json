@@ -13,5 +13,7 @@
     "C_Cpp.default.cppStandard": "c++17",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "javascript.format.semicolons": "insert"
+    "javascript.format.semicolons": "insert",
+    "C_Cpp.updateChannel": "Insiders",
+    "explorer.compactFolders": false
 }
