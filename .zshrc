@@ -73,3 +73,7 @@ alias pip="pip3"
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+# pipのパス on mac
+if [ "$(uname)" == 'Darwin' ]; then
+  export PATH=$PATH:$HOME/Library/Python/3.7/lib/python/site-packages
