@@ -79,5 +79,5 @@ export GPG_TTY=$(tty) #GPG
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
 
 # pipのパス on mac
-if [ "$(uname)" == 'Darwin' ]; then
-  export PATH=$PATH:$HOME/Library/Python/3.7/lib/python/site-packages
+# if [ "$(uname)" == 'Darwin' ]; then
+#   export PATH=$PATH:$HOME/Library/Python/3.7/lib/python/site-packages
