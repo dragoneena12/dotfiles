@@ -83,4 +83,4 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 #   PATH=$PATH:$HOME/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages
 # fi
 
-source<(kubectlcompletionzsh)
+source <(kubectl completion zsh)
