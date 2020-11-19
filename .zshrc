@@ -75,5 +75,9 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # pipのパス on mac
-if [ "$(uname)" == 'Darwin' ]; then
-  export PATH=$PATH:$HOME/Library/Python/3.7/lib/python/site-packages
+if [ "$(uname)" = 'Darwin' ]; then
+  PATH=$PATH:$HOME/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages
+fi
+
+source<(kubectlcompletionzsh)
+
