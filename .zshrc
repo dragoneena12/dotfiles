@@ -70,14 +70,17 @@ SPROMPT="correct: $RED%R$DEFAULT -> $GREEN%r$DEFAULT ? [Yes/No/Abort/Edit] => "
 
 alias python="python3"
 alias pip="pip3"
+export PATH=$PATH:~/.local/bin
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+export GPG_TTY=$(tty) #GPG
+
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
 
 # pipのパス on mac
-if [ "$(uname)" = 'Darwin' ]; then
-  PATH=$PATH:$HOME/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages
-fi
+# if [ "$(uname)" = 'Darwin' ]; then
+#   PATH=$PATH:$HOME/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages
+# fi
 
 source<(kubectlcompletionzsh)
-
