@@ -79,8 +79,6 @@ export GPG_TTY=$(tty) #GPG
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
 
 # pipのパス on mac
-# if [ "$(uname)" == 'Darwin' ]; then
-#   export PATH=$PATH:$HOME/Library/Python/3.7/lib/python/site-packages
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
@@ -94,3 +92,4 @@ export PATH="$PATH:/mnt/c/Program Files/Oracle/VirtualBox"
 export PATH="$PATH:/mnt/c/Windows/System32/"
 export PATH="$PATH:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
 export KUBECONFIG="/home/lapi/programs/kubespray/kubeconfig/kubespray-do.conf"
+source <(kubectl completion zsh)
