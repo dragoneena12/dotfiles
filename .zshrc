@@ -71,9 +71,9 @@ SPROMPT="correct: $RED%R$DEFAULT -> $GREEN%r$DEFAULT ? [Yes/No/Abort/Edit] => "
 alias python="python3"
 alias pip="pip3"
 export PATH=$PATH:~/.local/bin
-export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/go/bin
+#export GOPATH=$HOME/go
+#export PATH=$PATH:$GOPATH/bin
 export GPG_TTY=$(tty) #GPG
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
@@ -84,3 +84,4 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 # fi
 
 source <(kubectl completion zsh)
+export KUBECONFIG="/Users/tyoutugai/kubespray-do.conf"
