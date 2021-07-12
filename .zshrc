@@ -72,8 +72,8 @@ alias python="python3"
 alias pip="pip3"
 export PATH=$PATH:~/.local/bin
 export PATH=$PATH:/usr/go/bin
-#export GOPATH=$HOME/go
-#export PATH=$PATH:$GOPATH/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 export GPG_TTY=$(tty) #GPG
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
@@ -81,7 +81,7 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 # pipのパス on mac
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+# eval "$(pyenv init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 
 export VAGRANT_WSL_WINDOWS_ACCESS_USER="tyout"
