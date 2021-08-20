@@ -84,13 +84,13 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 # eval "$(pyenv init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 
-export VAGRANT_WSL_WINDOWS_ACCESS_USER="tyout"
+#export VAGRANT_WSL_WINDOWS_ACCESS_USER="tyout"
 export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 #/mnt/c/[任意のDir名]でもOK
-export VAGRANT_WSL_WINDOWS_ACCESS_USER_HOME_PATH="/mnt/c/vagrant"
+#export VAGRANT_WSL_WINDOWS_ACCESS_USER_HOME_PATH="/mnt/c/vagrant"
 export PATH="$PATH:/mnt/c/Program Files/Oracle/VirtualBox"
-export PATH="$PATH:/mnt/c/Windows/System32/"
-export PATH="$PATH:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+#export PATH="$PATH:/mnt/c/Windows/System32/"
+#export PATH="$PATH:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
 export KUBECONFIG="/home/lapi/programs/kubespray/kubeconfig/kubespray-do.conf"
 source <(kubectl completion zsh)
-export KUBECONFIG="/Users/tyoutugai/kubespray-do.conf"
+source $HOME/.cargo/env
