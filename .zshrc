@@ -71,7 +71,7 @@ SPROMPT="correct: $RED%R$DEFAULT -> $GREEN%r$DEFAULT ? [Yes/No/Abort/Edit] => "
 alias python="python3"
 alias pip="pip3"
 export PATH=$PATH:~/.local/bin
-export PATH=$PATH:/usr/go/bin
+export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export GPG_TTY=$(tty) #GPG
@@ -91,6 +91,6 @@ export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 export PATH="$PATH:/mnt/c/Program Files/Oracle/VirtualBox"
 #export PATH="$PATH:/mnt/c/Windows/System32/"
 #export PATH="$PATH:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
-export KUBECONFIG="/home/lapi/programs/kubespray/kubeconfig/kubespray-do.conf"
+export KUBECONFIG="/home/lapi/programs/kubespray-settings/kubeconfig/kubespray-do.conf"
 source <(kubectl completion zsh)
 source $HOME/.cargo/env
