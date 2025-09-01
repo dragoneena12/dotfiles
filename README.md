@@ -4,19 +4,10 @@
 
 - zsh
 - zprezto
-- tmux
-- Tmux Plugin Manager
-- dein.vim
 
-## To install plugins
-Tmux Plugin Manager
+## How to use
 
-```
-prefix + I
-```
-
-dein.vim
-
-```
-:call dein#install()
+```console
+chsh -s /bin/zsh
+source ./dotfilesLink.sh
 ```
