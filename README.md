@@ -3,7 +3,7 @@
 ## Requirements
 
 - zsh
-- zprezto
+- sheldon
 
 ## How to use
 

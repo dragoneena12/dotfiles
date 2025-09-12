@@ -5,13 +5,12 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
-# Source Prezto.
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
+## sheldon
+eval "$(sheldon source)"
 
 ## alias
-alias k=kubectl
+abbrev-alias k='kubectl'
+abbrev-alias g='git'
 
 ## asdf
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
