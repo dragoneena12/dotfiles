@@ -11,6 +11,10 @@ eval "$(sheldon source)"
 ## alias
 abbrev-alias k='kubectl'
 abbrev-alias g='git'
+abbrev-alias gc='git checkout'
+abbrev-alias ga='git add -A'
+abbrev-alias gcm='git commit -m'
+abbrev-alias dc='docker compose'
 
 ## asdf
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
