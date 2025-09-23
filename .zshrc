@@ -22,5 +22,8 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 ## claude code
 export PATH="$HOME/.local/bin:$PATH"
 
+## krew
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
 # Customize to your needs...
 
