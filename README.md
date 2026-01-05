@@ -9,6 +9,5 @@
 
 ```console
 chsh -s /bin/zsh
-mkdir -p ~/.config/sheldon
 source ./dotfilesLink.sh
 ```
