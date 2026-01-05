@@ -26,7 +26,7 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 # ssh-agentに鍵を追加
-ssh-add
+ssh-add > /dev/null 2>&1
 
 # Customize to your needs...
 
