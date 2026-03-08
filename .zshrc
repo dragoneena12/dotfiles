@@ -28,5 +28,10 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 # ssh-agentに鍵を追加
 ssh-add > /dev/null 2>&1
 
+# GOBIN
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
+
 # Customize to your needs...
 
