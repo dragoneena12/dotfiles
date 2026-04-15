@@ -33,5 +33,10 @@ export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 
+# history
+SAVEHIST=10000
+setopt append_history
+setopt share_history
+
 # Customize to your needs...
 
