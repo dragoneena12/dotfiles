@@ -31,3 +31,6 @@ github = "sindresorhus/pure"
 
 [plugins.zsh-syntax-highlighting]
 github = "zsh-users/zsh-syntax-highlighting"
+
+[plugins.zsh-kubectl-prompt]
+github = "superbrothers/zsh-kubectl-prompt"
