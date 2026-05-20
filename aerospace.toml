@@ -72,7 +72,7 @@ on-mode-changed = []
     inner.vertical =   0
     outer.left =       0
     outer.bottom =     0
-    outer.top =        0
+    outer.top =        01
     outer.right =      0
 
 # 'main' binding mode declaration
@@ -235,8 +235,12 @@ on-mode-changed = []
 
 [[on-window-detected]]
     if.app-id = 'company.thebrowser.Browser'
-    run = "move-node-to-workspace B"
+    run = "move-node-to-workspace A"
 
 [[on-window-detected]]
     if.app-id = 'com.tinyspeck.slackmacgap'
     run = "move-node-to-workspace S"
+
+[[on-window-detected]]
+    if.app-id = 'com.microsoft.VSCode'
+    run = "move-node-to-workspace 1"
