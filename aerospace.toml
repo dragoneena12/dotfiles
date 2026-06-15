@@ -231,6 +231,10 @@ on-mode-changed = []
     9 = 'secondary'
 
 [[on-window-detected]]
+    if.app-id = 'com.google.Chrome'
+    run = "move-node-to-workspace 5"
+
+[[on-window-detected]]
     if.app-id = 'com.apple.Terminal'
     run = "move-node-to-workspace T"
 
