@@ -12,3 +12,4 @@ ln -sf ~/dotfiles/.textlintrc ~/.textlintrc
 ln -sf ~/dotfiles/sheldon/plugins.toml ~/.config/sheldon/plugins.toml
 ln -sf ~/dotfiles/aerospace.toml ~/.config/aerospace/aerospace.toml
 ln -sf ~/dotfiles/aerospace/open-worktrees.sh ~/.config/aerospace/open-worktrees.sh
+ln -sf ~/dotfiles/claude/settings.json ~/.claude/settings.json

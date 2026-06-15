@@ -1,0 +1,16 @@
+{
+  "enabledPlugins": {
+    "lapi-claude-plugin@lapi-claude-plugins": true
+  },
+  "extraKnownMarketplaces": {
+    "lapi-claude-plugins": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/dragoneena12/claude-plugins.git"
+      }
+    }
+  },
+  "language": "japanese",
+  "tui": "fullscreen",
+  "theme": "dark"
+}
