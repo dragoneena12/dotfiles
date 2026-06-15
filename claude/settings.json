@@ -1,6 +1,7 @@
 {
   "enabledPlugins": {
-    "lapi-claude-plugin@lapi-claude-plugins": true
+    "lapi-claude-plugin@lapi-claude-plugins": true,
+    "slack@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "lapi-claude-plugins": {
