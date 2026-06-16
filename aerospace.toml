@@ -257,3 +257,7 @@ on-mode-changed = []
 [[on-window-detected]]
     if.app-id = 'com.microsoft.VSCode'
     run = "move-node-to-workspace 1"
+
+[[on-window-detected]]
+    if.app-id = 'com.anthropic.claudefordesktop'
+    run = "move-node-to-workspace C"
