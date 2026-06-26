@@ -239,6 +239,10 @@ on-mode-changed = []
     run = "move-node-to-workspace T"
 
 [[on-window-detected]]
+    if.app-id = 'com.apple.finder'
+    run = "layout floating"
+
+[[on-window-detected]]
     if.app-id = 'company.thebrowser.Browser'
     run = "move-node-to-workspace A"
 
