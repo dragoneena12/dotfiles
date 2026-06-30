@@ -247,6 +247,10 @@ on-mode-changed = []
     run = "layout floating"
 
 [[on-window-detected]]
+    if.app-id = 'org.mozilla.thunderbird'
+    run = "layout floating"
+
+[[on-window-detected]]
     if.app-id = 'company.thebrowser.Browser'
     run = "move-node-to-workspace A"
 
