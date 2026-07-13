@@ -251,6 +251,10 @@ on-mode-changed = []
     run = "layout floating"
 
 [[on-window-detected]]
+    if.app-id = 'com.apple.Preview'
+    run = "layout floating"
+
+[[on-window-detected]]
     if.app-id = 'company.thebrowser.Browser'
     run = "move-node-to-workspace A"
 
