@@ -281,3 +281,13 @@ on-mode-changed = []
 [[on-window-detected]]
     if.app-id = 'com.hnc.Discord'
     run = "move-node-to-workspace D"
+
+# Adobe apps are mistakenly detected as dialogs (splash screen has no title bar)
+# and float by default. See https://github.com/nikitabobko/AeroSpace/issues/1293
+[[on-window-detected]]
+    if.app-id = 'com.adobe.InDesign'
+    run = "layout tiling"
+
+[[on-window-detected]]
+    if.app-id = 'com.adobe.illustrator'
+    run = "layout tiling"
