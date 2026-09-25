@@ -7,11 +7,13 @@ curl --proto '=https' -fLsS https://rossmacarthur.github.io/install/crate.sh \
 # Link dotfiles
 mkdir -p ~/.config/sheldon
 mkdir -p ~/.config/aerospace
+mkdir -p ~/.config/git
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/.textlintrc ~/.textlintrc
 ln -sf ~/dotfiles/sheldon/plugins.toml ~/.config/sheldon/plugins.toml
 ln -sf ~/dotfiles/aerospace.toml ~/.config/aerospace/aerospace.toml
 ln -sf ~/dotfiles/aerospace/open-worktrees.sh ~/.config/aerospace/open-worktrees.sh
+ln -sf ~/dotfiles/git/ignore ~/.config/git/ignore
 ln -sf ~/dotfiles/claude/settings.json ~/.claude/settings.json
 
 # Register user-scope MCP servers (treat "already exists" as success)
