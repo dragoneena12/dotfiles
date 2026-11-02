@@ -38,5 +38,7 @@ SAVEHIST=10000
 setopt append_history
 setopt share_history
 
-# Customize to your needs...
+## direnv
+eval "$(direnv hook zsh)"
 
+# Customize to your needs...
