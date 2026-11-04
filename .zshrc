@@ -41,4 +41,7 @@ setopt share_history
 ## direnv
 eval "$(direnv hook zsh)"
 
+## LastPass CLI: ログインを12時間保つ（既定は1時間）。lpass login の時点で読まれる
+export LPASS_AGENT_TIMEOUT=43200
+
 # Customize to your needs...
